@@ -1,5 +1,5 @@
 # Openchallenge05
-openchallenge04의 css파일은 4.css로 외부 파일에서 만들고 연동을 시켰습니다.
+openchallenge05의 css파일은 5.css로 외부 파일에서 만들고 연동을 시켰습니다.
 </br>
 [웹페이지 사진]
 </br>
