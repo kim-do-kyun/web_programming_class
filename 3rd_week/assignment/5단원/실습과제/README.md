@@ -121,7 +121,7 @@ transition을 이용해 마우스를 올리면 2초에 걸쳐 스폰지밥의 �
 # 실습과제9
 ![실습문제9](https://github.com/kim-do-kyun/web_programming_class/assets/70315428/68322f57-10e4-4f8b-a32d-b03fa4beb32d)
 </br>
-카푸치노 만드는 순서에 대한 내용을 &#60;div&#61;안에 만들고, 셀렉터 div에 border속성을 이용해 테두리를 만들었습니다, 셀렉터 ol에는 list-style-type:noe;을 이용해 목록의 마커를 없애고 숫자를 넣었습니다.
+카푸치노 만드는 순서에 대한 내용을 &#60;div&#62;안에 만들고, 셀렉터 div에 border속성을 이용해 테두리를 만들었습니다, 셀렉터 ol에는 list-style-type:noe;을 이용해 목록의 마커를 없애고 숫자를 넣었습니다.
 
 ---
 
@@ -134,7 +134,7 @@ transition을 이용해 마우스를 올리면 2초에 걸쳐 스폰지밥의 �
 </br>
 ![실습문제10(after)](https://github.com/kim-do-kyun/web_programming_class/assets/70315428/cbcdb948-d7bc-4740-8968-6a34cb360db1)
 </br>
-웹 페이지가 열리고 3초동안 "질문있습니다."가 오른쪽에서 왼쪽으로 이동하며, 이를
+웹 페이지가 열리고 3초동안 "질문있습니다."가 오른쪽에서 왼쪽으로 이동하며, from,to를 이용했습니다.
 ```
 @keyframes movequestion{
     from{margin-left: 100%;}
@@ -146,4 +146,3 @@ transition을 이용해 마우스를 올리면 2초에 걸쳐 스폰지밥의 �
         animation-iteration-count: 1;
     }
 ```
-from,to를 이용했습니다.
