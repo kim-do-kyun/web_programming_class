@@ -80,7 +80,7 @@ float: left를 이용해 스폰지밥의 사진을 왼쪽으로 이동시키고 
             height: 100px;
         }
 ```
-&#64;keyframes 을 이용해 transform을 정의하고 이를 img셀렉터에 적용시켰다.
+&#64;keyframes 을 이용해 transform을 정의하고 rotate(360deg)로 스폰지밥이 360도 돌수있게 img셀렉터에 적용시켰습니다.
 
 ---
 
