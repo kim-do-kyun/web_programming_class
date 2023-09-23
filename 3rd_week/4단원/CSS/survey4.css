@@ -1,0 +1,7 @@
+body{background-color: aliceblue; padding: 10px;}
+h1{text-align: center; color: brown;}
+footer{background-color: orange; border-radius: 10px;}
+body label,p{font-family: 휴먼편지체; font-size: 1em;}
+span{color: blue; font-weight: bold; font-size: 18px; text-indent: 2px;}
+form{background-color: pink; padding: 10px;}
+footer > p{text-indent: 1em;}
