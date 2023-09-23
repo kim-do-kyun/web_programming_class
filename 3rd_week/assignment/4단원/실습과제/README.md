@@ -1,14 +1,14 @@
 # 실습과제1
 ![실습과제1](https://github.com/kim-do-kyun/web_programming_class/assets/70315428/6ce80f73-7a1b-4a5b-ab87-8c2708dfd680)
 <br/>
-&#60;span&#62;태그를 이용하여 "음악, 김치 찌개, 막국수"의 글자들의 배경호면을 바꾸었습니다.
+&#60;span&#62;태그를 이용하여 "음악, 김치 찌개, 막국수"의 글자들의 배경화면을 바꾸었습니다.
 
 ---
 
 # 실습과제2
 ![실습과제2](https://github.com/kim-do-kyun/web_programming_class/assets/70315428/312ee30a-013c-4e17-9da2-3ad63ba41698)
 <br/>
-text-decoration을 이용해 밑줄을 그엇으며, text-decoration을 이용하면 하이퍼링크의 밑줄도 없앨수 있습니다.
+text-decoration:underline을 이용해 밑줄을 그엇으며, text-decoration:none을 이용하면 하이퍼링크의 밑줄도 없앨수 있습니다.
 
 ---
 
