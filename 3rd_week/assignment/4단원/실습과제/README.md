@@ -68,5 +68,6 @@ css의 border을 이용하여 선셋사진 주변의 흰색 테두리를 구현�
 
 # 실습과제9
 ![실습과제9](https://github.com/kim-do-kyun/web_programming_class/assets/70315428/e856628d-1294-4f46-9665-dd798891e2bc)
+<br/>
 앞선 몇몇 실습문제에서 이용했던 :hover로 배경의 테두리를 표현했습니다
 
