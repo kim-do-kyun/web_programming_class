@@ -1,6 +1,6 @@
 # web_programming_class
 
-## [index.html](https://kim-do-kyun.github.io/web_programming_class/)
+## [index.html](https://kim-do-kyun.github.io/web_programming_class/ target="_blank")
 => 모든 과제들의 웹페이지를 하이퍼링크로 갈수있는 페이지입니다.
 
 <hr>
