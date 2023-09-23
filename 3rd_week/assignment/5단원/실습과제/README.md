@@ -9,6 +9,7 @@
 ![실습문제1-2](https://github.com/kim-do-kyun/web_programming_class/assets/70315428/8fbb5f4c-9cb6-4b5f-b750-d97c4ec68a00)
 </br>
 css의 display:inline 을 이용해 한줄씩 테두리를 만들었습니다.
+</br>
 **css의 display 종류**
 </br>
 <img src="https://github.com/kim-do-kyun/web_programming_class/assets/70315428/0dae9348-1ac0-4a1d-9686-80443ec947df" width="30%">
