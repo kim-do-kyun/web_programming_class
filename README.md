@@ -1,6 +1,6 @@
 # web_programming_class
 
-## <a href="https://www.google.com/" target="_blank">index.html</a>
+## <a href="https://kim-do-kyun.github.io/web_programming_class/" target="_blank">index.html</a>
 => 모든 과제들의 웹페이지를 하이퍼링크로 갈수있는 페이지입니다.
 
 <hr>
