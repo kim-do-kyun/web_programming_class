@@ -12,7 +12,7 @@ text-decoration을 이용해 밑줄을 그엇으며, text-decoration을 이용�
 
 # 실습과제3
 ![실습과제3](https://github.com/kim-do-kyun/web_programming_class/assets/70315428/55f1154f-f5b0-4aaa-914d-1f77f6e38726)
-<table>태그를 이용하여 표를 만들고 <th style="">을 이용하여 각 <th>태그 에서 색상을 표현했습니다.
+&#60;table&#62;태그를 이용하여 표를 만들고 &#60;th style=""&#62;을 이용하여 각 &#60;th&#62;태그 에서 색상을 표현했습니다.
 
 ---
 
