@@ -1,4 +1,4 @@
-# Web-Programming [<a href="http://127.0.0.1:5500/3rd_week/sourcecode(%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C)/HTML/index.html">자기소개페이지</a>만들기]
+# Web-Programming [<a href="https://kim-do-kyun.github.io/web_programming_class/3rd_week/sourcecode(%EC%9E%90%EA%B8%B0%EC%86%8C%EA%B0%9C)/HTML/index.html">자기소개페이지</a>만들기]
 :loudspeaker: 위의 자기소개페이지 클릭시 해당 페이지로 이동
 
 ## :computer: 프로젝트 소개
