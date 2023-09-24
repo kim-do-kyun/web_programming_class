@@ -119,19 +119,19 @@ ul li::before {
 }
 
 #contact > ul li:nth-child(1)::before {
-    content: url('./MEDIA/ico_mobile.png');
+    content: url('../MEDIA/ico_mobile.png');
 }
 #contact > ul li:nth-child(2)::before {
-    content: url('./MEDIA/ico_email.png');
+    content: url('../MEDIA/ico_email.png');
 }
 #contact > ul li:nth-child(3)::before {
-    content: url('./MEDIA/ico_facebook.png');
+    content: url('../MEDIA/ico_facebook.png');
 }
 #contact > ul li:nth-child(4)::before {
-    content: url('./MEDIA/ico_insta.png');
+    content: url('../MEDIA/ico_insta.png');
 }
 #contact > ul li:nth-child(5)::before {
-    content: url('./MEDIA/github.png');
+    content: url('../MEDIA/github.png');
 }
 #about p span{
     color:rgb(166, 197, 226)
@@ -210,10 +210,6 @@ ul li::before {
     animation-duration: 2s;
     animation-iteration-count: 1;
 }
-.wrapper #about p{
-    animation: none;
-}
-
 .wrapper #skill{
     animation-name: moveleft-right;
     animation-duration: 2.5s;
