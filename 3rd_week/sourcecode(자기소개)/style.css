@@ -1,0 +1,236 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap');
+
+body {
+    background-color: #f5f5f5;
+    color: #2f2f2f;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+}
+
+section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+.wrapper {
+    width: 85%;
+    margin: 20px auto;
+}
+
+h1 {
+    display: none;
+}
+
+h2, h3 {
+    font-family: sans-serif;
+}
+
+h2 {
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#my_info h2 {
+    display: none;
+}
+
+#my_info img {
+    width: 120px;
+    height: auto;
+    border-radius: 40px;
+    margin-right: 40px;
+}
+#my_info img:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+} 
+#my_info #myname{
+    color: midnightblue;
+}
+
+#index li:hover{
+    color: peru ;
+}
+
+
+table {
+    display: inline-block;
+    border-collapse: collapse;
+    border-spacing: 0;
+    vertical-align: top;
+}
+
+th {
+    text-align: left;
+    padding-right: 20px;
+}
+
+th, td {
+    font-size: 15px;
+}
+
+#myname th {
+    display: none;
+}
+
+#myname td {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+#project a{
+    color: forestgreen ;
+}
+#project a:hover {
+    text-decoration: underline;
+    color: mediumseagreen;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+    color: rgb(155, 134, 44);
+}
+
+#contact > ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 4px;
+}
+
+ul li::before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+#contact > ul li:nth-child(1)::before {
+    content: url('./MEDIA/ico_mobile.png');
+}
+#contact > ul li:nth-child(2)::before {
+    content: url('./MEDIA/ico_email.png');
+}
+#contact > ul li:nth-child(3)::before {
+    content: url('./MEDIA/ico_facebook.png');
+}
+#contact > ul li:nth-child(4)::before {
+    content: url('./MEDIA/ico_insta.png');
+}
+#contact > ul li:nth-child(5)::before {
+    content: url('./MEDIA/github.png');
+}
+#about p span{
+    color:rgb(166, 197, 226)
+}
+
+#skill ol {
+    list-style: none;
+    padding: 0;
+}
+
+#skill li {
+    display: inline-block;
+    background-color: silver;
+    padding: 4px 10px;
+    border-radius: 32px;
+    margin: 0 8px 8px 0;
+}
+
+#skill li::before {
+    content: "#";
+}
+#skill li:hover{
+    transform: scale(1.3);
+    transition-duration: 0.5s;
+}
+
+#hobby ol {
+    list-style: none;
+    padding: 0;
+}
+
+#hobby li {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#hobby li:last-child {
+    border-bottom: none;
+}
+
+#hobby video {
+    width: 50%;
+}
+
+#hobby a {
+    color: gold;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 2px 8px 2px 0;
+}
+
+#hobby a:hover {
+    background-color: #2f2f2f;
+    text-decoration: none;
+    padding: 2px 8px;
+    transition: padding 0.2s;
+}
+
+@keyframes moveleft-right{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+.wrapper #my_info{
+    animation-name: moveleft-right;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+.wrapper #index{
+    animation-name: moveleft-right;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+}
+.wrapper #about{
+    animation-name: moveleft-right;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+.wrapper #about p{
+    animation: none;
+}
+
+.wrapper #skill{
+    animation-name: moveleft-right;
+    animation-duration: 2.5s;
+    animation-iteration-count: 1;
+}
+.wrapper #project{
+    animation-name: moveleft-right;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+}
+.wrapper #hobby{
+    animation-name: moveleft-right;
+    animation-duration: 3.5s;
+    animation-iteration-count: 1;
+}
+.wrapper #contact{
+    animation-name: moveleft-right;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
