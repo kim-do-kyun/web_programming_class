@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>transform:rotate()</title>
+    <script>
+        let n = 2;
+        function a(obj){
+            obj.style.transform="scale("+n+",1)";
+            n *= 2;
+        }
+    </script>
+</head>
+<body>
+    <h3>클릭하면 2,3,4배로 옆으로 늘어납니다.</h3>
+    <hr>
+    <img src="/7th_week/8단원/media/spongebob.png" height="100"
+    onclick="a(this)" alt="스폰지밥">
+</body>
+</html>
