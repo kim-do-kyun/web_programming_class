@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갬블링 게임</title>
+    <style>
+        #numpad {
+            border: 1px solid violet;
+            background-color: #FFEBCD;
+            font-size: 60px;
+            text-align: center;
+            color: blue;
+            width: 180px;
+            font-style: italic;
+        }
+        #result{
+            color: violet;
+            font-size: 30px;
+            font-style: italic;
+        }
+    </style>
+    <script>
+        var sw=0; sw1=0; sw2=0; numArray = new Array();
+        function rand(){
+            if(sw!=1){
+                var span = document.getElementById("num1");
+                var num = Math.random() *3;
+                var num2 = Math.floor(num);
+                span.innerHTML = num2;
+                numArray[0] = num2;
+                sw=1;
+            }
+        }  
+        function rand1(){
+            if(sw1!=1){
+                var span = document.getElementById("num2");
+                var num = Math.random()*3;
+                var num2 = Math.floor(num);
+                span.innerHTML = num2;
+                numArray[1] = num2;
+                sw1=1;
+            }
+        }    
+        function rand2(){
+            if(sw2!=1){
+                var span = document.getElementById("num3");
+                var num = Math.random()*3;
+                var num2 = Math.floor(num)
+                span.innerHTML = num2;
+                numArray[2] = num2;
+                sw2 = 1;
+
+                var resultnum = numArray[0];
+                var resultsw = 1;
+                for(var i=1; i<3; ++i){
+                    if(numArray[i] != resultnum){
+                        resultsw = 0;
+                        break;
+                    }
+                }
+                var result = document.getElementById("result");
+                if(resultsw == 0){
+                    result.innerHTML = "fail(click here to do again)";
+                }
+                else{
+                    result.innerHTML = "Success(click here to do again)";
+                }
+            }
+        }
+        function restart(){
+            location.reload();
+        }
+    </script>
+</head>
+<body>
+    <h3>갬블링 게임</h3>
+    <p>각 숫자를 클릭하면 0에서 2사이의 난수로 바뀝니다. 모두 같은 수가 나오면 승리합니다.</p>
+    <hr>
+    <div id="numpad">
+        <span id="num1" onclick="rand()">0</span>
+        <span id="num2" onclick="rand1()">0</span>
+        <span id="num3" onclick="rand2()">0</span>
+    </div>
+    <div id="result" onclick="restart()"></div>
+</body>
+</html>
