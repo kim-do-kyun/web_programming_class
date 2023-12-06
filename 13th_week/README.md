@@ -9,7 +9,7 @@
 
 <br>
 
-#### :clipboard:function.php 코드 리뷰
+#### :clipboard:function.php 코드 리뷰(실습 로그인 폼 주석 달기)
 ```
 <?php 
 // 세션을 시작해 세션 변수를 사용할 수 있게 함

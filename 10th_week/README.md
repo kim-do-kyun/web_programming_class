@@ -1,6 +1,11 @@
 # :books: PHP 과제 
 ## :open_file_folder: 문제별 설명
 ##### :loudspeaker: [문제 번호 클릭시 해당 문제 웹 페이지로 이동]
+
+## :loop: 호스팅 사이트 
+> php 호스팅 업체를 알아보다가 https://www.dothome.co.kr/ (닷홈)이라는 업체에서 호스팅을 하였습니다
+> http://zetgi7dk5359.dothome.co.kr/
+
 #### :pushpin: <a href = "http://zetgi7dk5359.dothome.co.kr/10th_week/문제1번.php">문제1번</a>
 
 * 문제 1번의 경우 &#36;a라는 변수가 2로 나누었을때 나머지가 1이면 &#36;a값에 1을 더해서 출력, 아니면 그대로 출력하도록 만들었음
